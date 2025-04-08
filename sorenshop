@@ -1,0 +1,187 @@
+Sorenshop/
+│
+├── index.html
+├── produit1.html
+├── produit2.html
+├── produit3.html
+├── style.css
+└── images-produits/
+    ├── creme-hydratante.jpg
+    ├── rouge-a-levres-mat.jpg
+    ├── serum-vitamine.jpg
+    └── fond-de-teint.jpg
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sorenshop - Cosmétiques pour femme</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Bienvenue sur Sorenshop</h1>
+      <nav>
+        <a href="index.html">Accueil</a>
+        <a href="produit1.html">Crème Hydratante</a>
+        <a href="produit2.html">Rouge à lèvres Mat</a>
+      </nav>
+    </header>
+    
+    <section class="product-list">
+      <article>
+        <img src="images-produits/creme-hydratante.jpg" alt="Crème Hydratante">
+        <h2>Crème Hydratante</h2>
+        <p>Hydratation intense et peau radieuse.</p>
+        <a href="produit1.html">Voir le produit</a>
+      </article>
+      <article>
+        <img src="images-produits/rouge-a-levres-mat.jpg" alt="Rouge à lèvres Mat">
+        <h2>Rouge à lèvres Mat</h2>
+        <p>Un rouge à lèvres longue durée.</p>
+        <a href="produit2.html">Voir le produit</a>
+      </article>
+    </section>
+  </div>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crème Hydratante - Sorenshop</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="product-page">
+    <header>
+      <h1>Crème Hydratante</h1>
+      <nav>
+        <a href="index.html">Retour à l'accueil</a>
+      </nav>
+    </header>
+    <section class="product-details">
+      <img src="images-produits/creme-hydratante.jpg" alt="Crème Hydratante">
+      <div class="product-description">
+        <p class="price">Prix : 29.99€</p>
+        <p>Notre Crème Hydratante est une formule douce et nourrissante qui hydrate en profondeur et laisse votre peau lisse et radieuse.</p>
+      </div>
+    </section>
+  </div>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rouge à lèvres Mat - Sorenshop</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="product-page">
+    <header>
+      <h1>Rouge à lèvres Mat</h1>
+      <nav>
+        <a href="index.html">Retour à l'accueil</a>
+      </nav>
+    </header>
+    <section class="product-details">
+      <img src="images-produits/rouge-a-levres-mat.jpg" alt="Rouge à lèvres Mat">
+      <div class="product-description">
+        <p class="price">Prix : 19.99€</p>
+        <p>Ce rouge à lèvres mat est une couleur riche et intense qui dure toute la journée sans se faner. Il glisse parfaitement sur les lèvres et offre une finition veloutée sans sensation de dessèchement.</p>
+      </div>
+    </section>
+  </div>
+</body>
+</html>
+/* Style de base */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  background-color: #ff4081;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+header h1 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: white;
+}
+
+.product-list {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.product-list article {
+  width: 30%;
+  text-align: center;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-list img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.product-page {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.product-page img {
+  max-width: 50%;
+  border-radius: 8px;
+}
+
+.product-description {
+  max-width: 700px;
+  margin: 20px auto;
+}
+
+.price {
+  font-size: 1.5em;
+  color: #ff4081;
+}
+Sorenshop/
+│
+├── index.html
+├── produit1.html
+├── produit2.html
+├── style.css
+└── images-produits/
+    ├── creme-hydratante.jpg
+    ├── rouge-a-levres-mat.jpg
+    ├── serum-vitamine.jpg
+    └── fond-de-teint.jpg
